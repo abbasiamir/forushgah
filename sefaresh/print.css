@@ -1,0 +1,21 @@
+@page{
+	size:A5;
+}
+@media print{
+	
+	td{text-align:center}
+	table{width:100%;margin:0px;left:0%;right:0%;top:0px;bottom:0px}
+	th{background:green;border:2px solid black}
+	tr:nth-child(odd) td{
+		background:rgb(100,100,100);  
+	}
+	tr:nth-child(even) td{
+		background:rgb(200,200,200);  
+	}
+    #trdate{
+    background: 1px solid white;
+}
+body{
+    background: white;
+}
+}

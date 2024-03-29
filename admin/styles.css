@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../font/BYekan.eot?#") format("eot"), url("../font/BYekan.woff") format("woff"), url("../font/BYekan.ttf") format("truetype");
+}
+body{
+background-image:url(../images/bgadmin.png);
+	background-attachment:fixed;
+	font-size:100%;
+	font-family:'BYekan';
+}
+input, select{
+border-radius:4px;
+font:12px tahoma;
+border:1px solid #333;
+height:25px;
+}
+
+span{
+	color:blue;
+	font:tahoma 11px ;
+}
+.lable{
+	color:#fff;
+	font: 13px 'BYekan';
+	
+}
+.header{
+	background-color:orange;
+	color:blue;
+	font:11px 'BYekan';
+}
+button,input[Type="button"]{
+	font:11px tahoma;
+	width:80px;
+}
+#partst td{
+padding:0px 10px 0px 10px;
+}
+#list td{
+ border:1px solid black;
+ text-align:center;
+ color:black;
+ }
+ #list{
+	border-collapse:collapse;
+ }
+ #list tr{
+	background-color:lightgray;
+ }
+ th{
+	border:1px solid black;
+ }
+.header_e,.header_d {
+    text-decoration: none;
+    color: #fff;
+    //padding: 12px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #cc0066;  
+    box-shadow: 0 5px 5px #313131, 0 9px 0 #393939, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+    position: relative;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    display: inline-block;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+    box-shadow: 0 5px 5px #782d54, 0 9px 0 #5e254c, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+    background-color: #cc0066;
+    margin-right: 20px;
+}
+ 
+
+.header_e:hover,.header_d:hover {
+     box-shadow: 0 5px 5px #782d54, 0 9px 0 #5e254c, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 15px rgba(255,255,255,0.4), inset 0 -2px 9px rgba(0,0,0,0.2);
+}
+ 
+
+.header_e:active,.header_d:active {
+    box-shadow: 0 2px 0 #5e254c, 0px 4px 4px rgba(0,0,0,0.3), inset 0px 2px 5px rgba(0,0,0,0.2);
+    top: 7px;  
+}
+.header_d {
+     border-radius: 35px 5px;   
+}
+.header_b{
+	background:linear-gradient(blue, #08bff4);
+	text-align:center;
+	font-family:b yekan;
+	color:white;
+	border:1px solid #1b93b5;
+	border-radius:2px;
+	cursor:pointer;
+}
+.header_b:hover
+{
+	background:linear-gradient(#08bff4,#139fc7);
+}
+.header_b:active{
+	background:linear-gradient(#139fc7,#139fc7);
+}

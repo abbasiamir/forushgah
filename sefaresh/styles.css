@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("font/BYekan.eot?#") format("eot"), url("font/BYekan.woff") format("woff"), url("font/BYekan.ttf") format("truetype");
+}
+body{
+	background-image:url(images/bgindex.png);
+	background-attachment:fixed;
+	font-family:'BYekan';
+	font-size:100%; 
+}
+input, select{
+border-radius:4px;
+font:12px tahoma;
+border:1px solid #333;
+height:20px;
+}
+table{
+	width:70%;
+	top:100px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+	right:15%;
+	left:15%;
+  border-collapse:collapse;
+}
+
+#prv{
+	position:fixed;
+	right:0;
+	top:500;
+	cursor:pointer;
+}
+#next{
+position:fixed;
+left:0;
+top:500;
+cursor:pointer;
+}
+tr{
+	color:#fff;
+	font-size:14px;
+}
+th{
+	background:gray;
+	border:1px solid black;
+	
+}
+.brdr td{
+	border:2px solid black;
+	
+}
+.brdr{
+	border-collapse:collapse;
+}
+td{
+	text-align:center;
+	border:1px solid black;
+}
+.number{
+	width:50px;
+}
+.fac{
+	width:800px;
+}
+@page{
+	size:A5;
+}
+
+.main tr:nth-child(odd) {
+    background: lightgreen;
+    color: black;
+}
+
+.main tr:nth-child(even){
+	background:#5fae5d;
+     color: black;
+}
+.brdr tr:nth-child(odd){
+	background:lightgreen;
+     color: black;
+}
+.brdr tr:nth-child(even){
+	background:#5fae5d;
+     color: black;
+}
+.main td{
+    color: black;
+}
+.brdr td{
+    color: black;
+}
+th{
+    color: white;
+}
+input[type=button]
+{
+	background:linear-gradient(blue, #08bff4);
+	text-align:center;
+	font-family:b yekan;
+	color:white;
+	border:1px solid #1b93b5;
+	border-radius:2px;
+	cursor:pointer;
+}
+input[type=button]:hover,
+button:hover{
+	background:linear-gradient(#08bff4,#139fc7);
+}
+input[type=button]:active,
+button:active{
+	background:linear-gradient(#139fc7,#139fc7);
+}

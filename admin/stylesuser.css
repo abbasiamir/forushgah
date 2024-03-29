@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "BYekan";
+    src: url("../font/BYekan.eot?#") format("eot"), url("../font/BYekan.woff") format("woff"), url("../font/BYekan.ttf") format("truetype");
+}
+body{
+background-image:url(../images/bgadmin.png);
+	background-attachment:fixed;
+	font-size:100%;
+	font-family:'BYekan';
+}
+input, select{
+border-radius:4px;
+font:12px tahoma;
+border:1px solid #333;
+height:25px;
+}
+input{
+/*position:absolute;*/
+}
+.space{
+	height:20px;
+}
+.karbar{
+	cursor:pointer;
+	color:#1d1d1d;
+	font-size:18px;
+	text-shadow: 1px 1px 3px #fff;
+	boerder:1px dashed #eee;
+}
+#cntainer{
+  position:absolute;
+  margin:auto;
+  left:100px;
+  right:100px;
+  background:#ffffff;
+  border-radius:6px;
+  width:400px;
+ 
+  font-size:14px;
+  direction: rtl;
+  padding: 0px;
+}
+input[Type="text"],input[Type="password"]{
+ 
+ width:200px;
+}
+input[Type="button"]{
+	width:200px;
+	height:40px;
+	color:white;
+	background-color:#505d95;
+	border-radius:10px 10px 10px 10px;
+	margin:auto;
+	left:50px;right:50px;
+}
